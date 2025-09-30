@@ -8,10 +8,10 @@ _Madison, WI (Open to remote)_
 ## 👋 About
 I build clean, reliable dashboards and data pipelines that turn clinical and digital data into actionable insight. My focus is reproducible reporting (Power BI, SQL) and modern web analytics (GA4, GTM), supporting population health and value-based care initiatives.
 
-📧 **Email:** youremail@example.com  
-🔗 **LinkedIn:** [linkedin.com/in/yourprofile](#)
+📧 **Email:** tveedahl@gmail.com  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/timveedahl/](#)
 
-[📄 Download Resume](resume.pdf)
+[📄 Download Resume](T_Veedahl_Resume.docx)
 
 ---
 
