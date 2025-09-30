@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
+# Tim Veedahl — Data & Healthcare Analytics Portfolio
 
-You can use the [editor on GitHub](https://github.com/tveedahl/tveedahl.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**Healthcare & Digital Analytics — Epic Cogito • GA4 • Power BI • SQL**  
+_Madison, WI (Open to remote)_
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+## 👋 About
+I build clean, reliable dashboards and data pipelines that turn clinical and digital data into actionable insight. My focus is reproducible reporting (Power BI, SQL) and modern web analytics (GA4, GTM), supporting population health and value-based care initiatives.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+📧 **Email:** youremail@example.com  
+🔗 **LinkedIn:** [linkedin.com/in/yourprofile](#)
 
-```markdown
-Syntax highlighted code block
+[📄 Download Resume](resume.pdf)
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+## 🧩 Core Skills
+- Epic Cogito / Clarity / RADAR
+- SQL (Redshift, Postgres, T-SQL)
+- Power BI (DAX, Data Modeling)
+- GA4, GTM, Looker Studio, BigQuery
+- Python (Pandas) — for ETL & analysis
+- Data Visualization & Dashboard Design
+- Population Health Analytics
+- Reporting Automation
 
-1. Numbered
-2. List
+---
 
-**Bold** and _Italic_ and `Code` text
+## 📊 Featured Projects
 
-[Link](url) and ![Image](src)
+### 1. **Population Health Dashboard — Power BI**
+**Tools:** Power BI • SQL • DAX • Epic Cogito  
+Built a provider-level dashboard visualizing readmissions, care gaps, and risk stratification. Used SQL against a Clarity-like dataset and modeled measures in Power BI using DAX.
+
+[🔍 View Case Study](#)
+
+---
+
+### 2. **GA4 Funnel & Attribution — Looker Studio**
+**Tools:** GA4 • GTM • Looker Studio • BigQuery  
+Implemented GA4 and GTM tracking for a DTC e-commerce site. Created funnel visualizations and an attribution summary in Looker Studio using BigQuery exports.
+
+[📈 View Dashboard](#)
+
+---
+
+### 3. **Epic Cogito Reporting Example**
+**Tools:** Epic Cogito • SQL • Power BI  
+Sample Epic Cogito-derived report showing utilization trends and RADAR-style visualizations. Includes anonymized SQL snippets and report specs.
+
+[📄 Download Snippets](#)
+
+---
+
+### 4. **Mini GA4 Audit (Template)**
+**Tools:** GA4 • GTM • Looker Studio  
+A short audit checklist and Looker Studio template for small business clients to assess their tracking setup.
+
+[📎 Get Template](#)
+
+---
+
+## 🧠 Technical Skills Summary
+
+| Category | Tools / Focus |
+|-----------|----------------|
+| Data Analytics | Power BI, SQL, Epic Cogito, Clarity |
+| Digital Analytics | GA4, GTM, Looker Studio, BigQuery |
+| Visualization | Power BI, Looker Studio, DAX, Chart Design |
+| Programming | Python (Pandas, Jupyter) |
+| Domain Expertise | Healthcare Analytics, Population Health, EHR Data |
+
+---
+
+## 💡 Example SQL Snippet
+```sql
+-- Example: cohort counts by month
+SELECT
+  date_trunc('month', encounter_date) AS month,
+  patient_count
+FROM (
+  SELECT encounter_date::date, COUNT(DISTINCT patient_id) AS patient_count
+  FROM encounters
+  WHERE encounter_date >= '2024-01-01'
+  GROUP BY encounter_date::date
+) t
+ORDER BY month DESC;
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+---
 
-### Jekyll Themes
+## 💼 Work With Me
+Interested in a freelance GA4 audit, Power BI dashboard, or Epic Cogito reporting project?  
+I offer short engagements with clear deliverables and full documentation.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tveedahl/tveedahl.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+📧 [Email Me](mailto:youremail@example.com)
 
-### Support or Contact
+---
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+© **Tim Veedahl** — Built for analytics portfolios • Hosted on GitHub Pages
